@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Players Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌟 Sports Players Gallery</h1>
+        <p>Select a sport to view top players!</p>
+    </header>
+
+    <nav>
+        <button onclick="showPlayers('soccer')">Soccer ⚽</button>
+        <button onclick="showPlayers('volleyball')">Volleyball 🏐</button>
+        <button onclick="showPlayers('football')">Football 🏈</button>
+        <button onclick="showPlayers('badminton')">Badminton 🏸</button>
+    </nav>
+
+    <main>
+        <ul id="playerList">
+            <!-- Player list will show here -->
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sports Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
